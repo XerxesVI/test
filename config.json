@@ -16,20 +16,20 @@
     "av": 6,
     "background": false,
     "colors": true,
-    "cpu-affinity": "0x4",
-    "cpu-priority": 1,
+    "cpu-affinity": null,
+    "cpu-priority": null,
     "donate-level": 1,
     "donate-over-proxy": 1,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 98,
+    "max-cpu-usage": 80,
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
             "user": "4Ak7eCi5BsZ4UzcwAz6eTAddS7kJRyTJQPSz6tCrS4j2B6w68nehRoUNJT5rLWfv6hVRXKpQ1y5bccMfxYjQabKiBSNPHpf.xerxes",
             "pass": "xerxes:xerxes.nar.rayya@gmail.com",
-            "rig-id": "xerxes",
+            "rig-id": "xerxesVPS",
             "nicehash": false,
             "keepalive": true,
             "variant": -1,
@@ -48,16 +48,6 @@
             "affine_to_cpu": 0,
             "asm": true
         },
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": 1,
-            "asm": true
-        },
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": 2,
-            "asm": true
-        }
 
     ],
     "user-agent": null,
